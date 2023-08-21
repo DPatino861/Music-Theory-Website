@@ -114,6 +114,7 @@ const updatePrompt = (stage) => {
 const populateOptions = (stage, list) => {
     if(stage >= 4){
         populateResult()
+        return
     }
 
     const opts = document.createElement('div')
